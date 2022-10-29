@@ -12,7 +12,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
 }
 .logo {
   display: flex;
@@ -185,7 +185,7 @@
   text-align: center;
   top: 50%;
   margin: 0;
-  right: 48px;;
+  right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -304,7 +304,7 @@
 .footer__column-heading{
   margin: 0 0 20px;
   font-size: 18px;
-  line-height: 30pxpx;
+  line-height: 30px;
   font-weight: 600;
   color: #f2f2f2;
 }
