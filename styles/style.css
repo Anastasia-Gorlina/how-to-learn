@@ -7,6 +7,7 @@
 
 .header {
   display: flex;
+  flex-direction: column;
   position: relative;
   height: 100vh;
   min-height: 600px;
@@ -15,15 +16,13 @@
 }
 
 .logo {
-  display: flex;
-  position: absolute;
+  width: 228px;
+  height: 32px;
 }
 
 .logo_place_header {
-  width: 228px;
-  height: 32px;
-  margin-top: 30px;
-  margin-left: 64px;
+  padding-top: 30px;
+  padding-left: 64px;
   z-index: 2;
 }
 
@@ -42,9 +41,8 @@
   font-weight: normal;
   max-width: 388px;
   line-height: 25px;
-  margin: 0;
-  left: 64px;
   bottom: 30px;
+  left: 64px;
   font-size: 18px;
   z-index: 2;
 }
@@ -303,20 +301,17 @@
 }
 
 .footer {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #1f1f1f;
   min-height: 350px;
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   min-width: 784px;
   margin: 0;
 }
@@ -332,14 +327,17 @@
   position: relative;
 }
 
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
+.logo_place_footer{
+  padding-top: 60px;
 }
 
-.footer_author {
-  position: absolute;
-  bottom: 0;
+.footer__author {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 40px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -351,7 +349,7 @@
 }
 
 .footer__column-heading {
-  margin: 0 0 20px;
+  margin: 60px 0 20px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
