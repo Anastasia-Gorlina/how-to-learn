@@ -23,7 +23,7 @@
           class="header__main-illustration"
           alt="основная картинка"
           src="./images/header-image.png">
-        <div class="header__square-pic"></div>
+        <div class="rotation header__square-pic"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -100,13 +100,16 @@
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
             <div class="video__iframes">
-              <iframe class="video__iframe" width="515" height="316"
-              title="TED Джош Кауфман"
-              src="https://www.youtube.com/watch?v=arj7oStGLkU" allowfullscreen>
+              <iframe  class="video__iframe" width="560" height="315"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="Видео Ютуб" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
-              <iframe class="video__iframe" width="515" height="316"
-              title="Тим Урбан"
-              src="https://www.youtube.com/watch?v=5MgBikgcWnY" allowfullscreen>
+            <iframe class="video__iframe" width="560" height="315"
+            src="https://www.youtube.com/embed/5MgBikgcWnY"
+            title="Видео Ютуб" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </section>
         <section class="oakey">
@@ -201,7 +204,12 @@
           </div>
         </section>
         <section class="kaufman">
-          <div class="kaufman__triangle"></div>
+          <div class="rotation kaufman__triangle">
+            <img
+          class="rotation kaufman__triangle"
+          alt="синий треугольник"
+          src="./images/kaufman-triangle.svg">
+          </div>
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
           </h2>
